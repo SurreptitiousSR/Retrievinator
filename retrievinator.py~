@@ -1,0 +1,15 @@
+import csv
+import random
+import time
+
+choice = 0
+
+def welcomeMenu():
+    global choice
+    print("Welcome to Retrievinator!")
+    print("Please choose from the following options:")
+    while choice != 1 or 2:
+        choice = input("[1] to select topic: [2] for 5 random questions")
+
+welcomeMenu()
+    
